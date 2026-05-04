@@ -1,0 +1,185 @@
+{
+  "image_file": "sample_001.png",
+  "image_size": {
+    "width": 1012,
+    "height": 638
+  },
+  "fields": [
+    {
+      "code": "DAQ",
+      "name": "license_number",
+      "text": "F8064058",
+      "bbox": {
+        "x0": 780,
+        "y0": 499,
+        "x1": 877,
+        "y1": 515
+      }
+    },
+    {
+      "code": "DAC",
+      "name": "first_name",
+      "text": "STEVEN",
+      "bbox": {
+        "x0": 300,
+        "y0": 179,
+        "x1": 389,
+        "y1": 195
+      }
+    },
+    {
+      "code": "DAD",
+      "name": "middle_name",
+      "text": "JIMMY",
+      "bbox": {
+        "x0": 395,
+        "y0": 179,
+        "x1": 464,
+        "y1": 195
+      }
+    },
+    {
+      "code": "DAA",
+      "name": "last_name",
+      "text": "GLENN",
+      "bbox": {
+        "x0": 300,
+        "y0": 119,
+        "x1": 383,
+        "y1": 139
+      }
+    },
+    {
+      "code": "DAG",
+      "name": "street_address",
+      "text": "46395 MATTHEW GROVE SUITE 462",
+      "bbox": {
+        "x0": 300,
+        "y0": 239,
+        "x1": 677,
+        "y1": 255
+      }
+    },
+    {
+      "code": "DAI",
+      "name": "city",
+      "text": "CRAWFORDMOUTH",
+      "bbox": {
+        "x0": 300,
+        "y0": 299,
+        "x1": 511,
+        "y1": 315
+      }
+    },
+    {
+      "code": "DAJ",
+      "name": "state",
+      "text": "AK",
+      "bbox": {
+        "x0": 523,
+        "y0": 299,
+        "x1": 555,
+        "y1": 315
+      }
+    },
+    {
+      "code": "DAK",
+      "name": "zip_code",
+      "text": "88188",
+      "bbox": {
+        "x0": 561,
+        "y0": 299,
+        "x1": 621,
+        "y1": 315
+      }
+    },
+    {
+      "code": "DBB",
+      "name": "date_of_birth",
+      "text": "06/20/1979",
+      "bbox": {
+        "x0": 300,
+        "y0": 369,
+        "x1": 408,
+        "y1": 385
+      }
+    },
+    {
+      "code": "DBA",
+      "name": "expiration_date",
+      "text": "01/01/2034",
+      "bbox": {
+        "x0": 740,
+        "y0": 369,
+        "x1": 848,
+        "y1": 385
+      }
+    },
+    {
+      "code": "DBD",
+      "name": "issue_date",
+      "text": "01/01/2026",
+      "bbox": {
+        "x0": 520,
+        "y0": 369,
+        "x1": 628,
+        "y1": 385
+      }
+    },
+    {
+      "code": "DBC",
+      "name": "sex",
+      "text": "M",
+      "bbox": {
+        "x0": 30,
+        "y0": 499,
+        "x1": 48,
+        "y1": 515
+      }
+    },
+    {
+      "code": "DAU",
+      "name": "height",
+      "text": "6'-11\"",
+      "bbox": {
+        "x0": 150,
+        "y0": 499,
+        "x1": 208,
+        "y1": 515
+      }
+    },
+    {
+      "code": "DAW",
+      "name": "weight",
+      "text": "210 lb",
+      "bbox": {
+        "x0": 320,
+        "y0": 499,
+        "x1": 381,
+        "y1": 515
+      }
+    },
+    {
+      "code": "DAY",
+      "name": "eye_color",
+      "text": "HAZ",
+      "bbox": {
+        "x0": 470,
+        "y0": 499,
+        "x1": 516,
+        "y1": 515
+      }
+    },
+    {
+      "code": "DCA",
+      "name": "license_class",
+      "text": "M",
+      "bbox": {
+        "x0": 620,
+        "y0": 499,
+        "x1": 638,
+        "y1": 515
+      }
+    }
+  ]
+}
