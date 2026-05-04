@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ID Scanner App</title>
+        <link rel="stylesheet" href="Style.css">
+        <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.1.1/dist/tesseract.min.js"></script>
+        <script src="Tesseract.js"></script>
+        <script src="Script.js"></script>
+        
+
+
+        
+
+    </head>
+    <body>
+    <div class="container">
+
+        <div class="scanner-container">
+            <!--Webcam feed or placeholder for ID scanning-->
+            <h2>ID Scanner</h2>
+            <div class="webcam-feed"></div>
+            <video id="webcamFeed" autoplay playsinline></video>
+            <canvas id="previewCanvas"></canvas>
+            <img id="snapshotDisplay" alt="ID Snapshot" style="display: none;">
+            <div id="focusIndicator"></div>
+        </div>
+
+        <div class="buttons-container">
+            <button id="scanButton">Scan ID</button>
+            <button id="retakeButton" disabled>Retake</button>
+        </div>
+
+        
+
+        <div class="flash-effect"></div>
+        
+        <div class="data-container">
+            <h2>ID Information</h2>
+            <div>
+                <label for="firstName">First Name:
+                    <input type="text" id="firstName" readonly>
+                </label>
+                <label for="lastName">Last Name:
+                    <input type="text" id="lastName" readonly>
+                </label>
+                <label for="dob">Date of Birth:
+                    <input type="text" id="dob" readonly>
+                </label>
+                <label for="sex">Sex:
+                    <input type="text" id="sex" readonly>
+                </label>
+                <label for="hgt">Height:
+                    <input type="text" id="hgt" readonly>
+                </label>
+                <label for="wgt">Weight:
+                    <input type="text" id="wgt" readonly>
+                </label>
+                <label for="eyes">Eyes:
+                    <input type="text" id="eyes" readonly>
+                </label>
+                <label for="address">Address:
+                    <input type="text" id="address" readonly>
+                </label>
+                <label for="city">City:
+                    <input type="text" id="city" readonly>
+                </label>
+                <label for="state">State:
+                    <input type="text" id="state" readonly>
+                </label>
+                <label for="zipCode">Zip Code:
+                    <input type="text" id="zipCode" readonly>
+                </label>
+                <label for="dlNumber">DL#:
+                    <input type="text" id="dlNumber" readonly>
+                </label>
+                <label for="dlClass">Class:
+                    <input type="text" id="dlClass" readonly>
+                </label>
+                <label for="issDate">ISS:
+                    <input type="text" id="issDate" readonly>
+                </label>
+                <label for="expDate">EXP:
+                    <input type="text" id="expDate" readonly>
+                </label>
+            </div>
+            <div class="buttons-container">
+                <button id="clearButton">Clear</button>
+                <button id="saveButton">Save Data</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="message-display" id="statusMessage"></div>
+       
+        
+    </body>
+</html>
