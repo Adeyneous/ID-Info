@@ -198,4 +198,4 @@ _(MIT or similar — fill in.)_
 
 ## Contact
 
-_(Your name, email, LinkedIn, portfolio link.)_
+_(Adeyneous Kpoto, Teddykpoto@gmail.com,https://www.linkedin.com/in/adeyneous-kpoto-84021a199/, https://www.adeyneouskpoto.com/.)_
