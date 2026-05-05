@@ -194,7 +194,7 @@ python training/train_crnn.py --data data/sample/ --epochs 5
 
 ## License
 
-_(MIT or similar — fill in.)_
+_(MIT)_
 
 ## Contact
 
